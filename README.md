@@ -14,28 +14,26 @@ Statična, responzivna web stranica za fiktivnu firmu za informacijsku sigurnost
 ├── kontakt.html                Kontakt forma + lokacija (Google karta)
 ├── politika-privatnosti.html
 ├── uvjeti-koristenja.html
-├── partials/
-│   ├── header.html            Zaglavlje — učitava se na svaku stranicu
-│   └── footer.html            Podnožje (kontakt, newsletter) — učitava se na svaku stranicu
 ├── css/style.css
-└── js/
-    ├── include.js             Ubacuje header/footer i upravlja izbornikom
-    └── main.js                Validacija i slanje formi (newsletter, kontakt)
+└── js/main.js                 Izbornik, aktivna poveznica, validacija i slanje formi
 ```
 
-Zaglavlje i podnožje postoje samo jednom (`partials/`) i automatski se
-ubacuju u svaku stranicu putem `include.js`, tako da se pri izmjeni
-kontakt podataka, navigacije ili newslettera to radi na jednom mjestu.
+**Napomena:** zaglavlje i podnožje su namjerno ispisani u svakoj `.html`
+datoteci posebno (nisu učitani putem `fetch()`), baš zato da stranica radi
+i bez lokalnog servera — dvoklikom na bilo koju `.html` datoteku. Cijena
+toga je da, ako mijenjate npr. telefon, adresu ili poveznice na društvene
+mreže u podnožju, to treba promijeniti u svih 10 `.html` datoteka. Najbrži
+način za to je "Find in Files" / "Replace in Files" u editoru (npr. VS
+Code: Ctrl+Shift+H) nad cijelom mapom — potraži staru vrijednost (npr.
+stari broj telefona) i zamijeni je posvuda odjednom.
 
 ## Pregled na svom računalu
 
-`include.js` koristi `fetch()` za učitavanje `partials/header.html` i
-`partials/footer.html`, a preglednici to iz sigurnosnih razloga ne
-dopuštaju kad se datoteka otvori izravno (`file://`). Zato stranicu
-pokrenite kroz lokalni server, npr.:
-
-- VS Code → ekstenzija "Live Server" → desni klik na `index.html` → *Open with Live Server*, ili
-- u terminalu, u ovoj mapi: `python3 -m http.server 8000`, pa otvorite `http://localhost:8000`
+Stranica sad radi potpuno samostalno — dovoljno je dvoklikom otvoriti
+`index.html` (ili bilo koju drugu `.html` datoteku) u pregledniku, bez
+ikakvog servera. Samo pripazi da cijela mapa `site` (s podmapama `css` i
+`js`) ostane zajedno kad je kopiraš/raspakiravaš, jer `index.html` traži
+`css/style.css` i `js/main.js` na relativnoj putanji.
 
 ## Newsletter i kontakt forma — VAŽNA NAPOMENA
 

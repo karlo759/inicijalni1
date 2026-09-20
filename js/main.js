@@ -189,11 +189,38 @@
     });
   }
 
-  // Header/footer are injected asynchronously by include.js — wait for them.
-  document.addEventListener('partials:loaded', function () {
-    wireNewsletter();
-  });
+  /* ---------------- Nav toggle + active link (header is inline in every page) ---------------- */
+  function wireNavToggle() {
+    var toggle = document.getElementById('nav-toggle');
+    var menu = document.getElementById('nav-menu');
+    if (!toggle || !menu) return;
+    toggle.addEventListener('click', function () {
+      var isOpen = menu.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+    });
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        menu.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  function highlightActiveLink() {
+    var current = document.body.getAttribute('data-page');
+    if (!current) return;
+    document.querySelectorAll('.nav-menu a[data-page]').forEach(function (link) {
+      if (link.getAttribute('data-page') === current) {
+        link.classList.add('is-active');
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
+    wireNavToggle();
+    highlightActiveLink();
+    wireNewsletter();
     wireContactForm();
   });
 })();
