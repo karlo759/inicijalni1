@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- TSD-4RT | AB | 22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
@@ -139,10 +140,11 @@
     <div class="footer-col newsletter">
       <h3>Prijava na novosti</h3>
       <p style="font-size:0.9rem; max-width: 32ch;">Povremene obavijesti o novim prijetnjama i savjetima. Vaš email ne dijelimo s trećim stranama.</p>
-      <form id="newsletter-form" class="newsletter-form" novalidate>
-        <label for="newsletter-email" class="sr-only">Email adresa</label>
-        <input type="email" id="newsletter-email" name="email" placeholder="vasa@email.com" required>
-        <button type="submit" class="btn btn-primary">Prijavi se</button>
+      <form action="https://formspree.io/f/xeaovzya" method="POST">
+        <label for="newsletter-email">Prijava na newsletter</label>
+        <input id="newsletter-email" type="email" name="email" required
+               placeholder="tvoja@adresa.hr">
+        <button type="submit">Prijavi me</button>
       </form>
       <p class="form-message" id="newsletter-message" role="status" aria-live="polite"></p>
     </div>
