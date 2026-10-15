@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Novosti — SigurnoIT</title>
-<meta name="description" content="Najnoviji članci i vijesti o informacijskoj sigurnosti od tima SigurnoIT.">
+<title>Kontakt — SigurnoIT</title>
+<meta name="description" content="Kontaktirajte SigurnoIT — javite nam se putem forme, telefona ili emaila, ili nas posjetite u Daruvaru.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><path d=%22M20 3 L34 8.5 V19 C34 27.5 28 33.5 20 37 C12 33.5 6 27.5 6 19 V8.5 L20 3Z%22 fill=%22%2316233C%22 stroke=%22%23C1863C%22 stroke-width=%222.4%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="novosti">
+<body data-page="kontakt">
 
 <header class="site-header">
   <div class="container header-inner">
@@ -40,53 +40,91 @@
 
   <section class="hero" style="padding-bottom: 40px;">
     <div class="container" style="padding: 72px 0 24px;">
-      <span class="hero-eyebrow">Novosti</span>
-      <h1 style="max-width: 20ch;">Vijesti i savjeti o informacijskoj sigurnosti.</h1>
-      <p class="lede" style="max-width: 60ch;">Naš tim redovito piše o aktualnim prijetnjama, novim regulativama i praktičnim koracima koje vaša tvrtka može poduzeti.</p>
+      <span class="hero-eyebrow">Kontakt</span>
+      <h1 style="max-width: 20ch;">Javite nam se — odgovaramo unutar jednog radnog dana.</h1>
+      <p class="lede" style="max-width: 60ch;">Ispunite formu ili nas kontaktirajte izravno. Sva polja u formi su obavezna kako bismo vam mogli odgovoriti.</p>
     </div>
   </section>
 
   <section class="section-light">
-    <div class="container">
-      <div class="grid grid-3">
+    <div class="container grid grid-2" style="align-items: start; gap: 56px;">
 
-        <article class="article-card">
-          <div class="article-thumb">
-            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><path d="M60 170 L150 90 L210 140 L340 40" stroke="#C1863C" stroke-width="4" fill="none"/><circle cx="150" cy="90" r="6" fill="#E7EBF2"/><circle cx="210" cy="140" r="6" fill="#E7EBF2"/></svg>
+      <div>
+        <h2>Pošaljite poruku</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="cf-first-name">Ime <span class="req">*</span></label>
+              <input type="text" id="cf-first-name" name="firstName" required>
+              <p class="error-msg" id="err-first-name"></p>
+            </div>
+            <div class="field">
+              <label for="cf-last-name">Prezime <span class="req">*</span></label>
+              <input type="text" id="cf-last-name" name="lastName" required>
+              <p class="error-msg" id="err-last-name"></p>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email <span class="req">*</span></label>
+              <input type="email" id="cf-email" name="email" required>
+              <p class="error-msg" id="err-email"></p>
+            </div>
+            <div class="field">
+              <label for="cf-phone">Broj telefona <span class="req">*</span></label>
+              <input type="tel" id="cf-phone" name="phone" required>
+              <p class="error-msg" id="err-phone"></p>
+            </div>
+            <div class="field full">
+              <label for="cf-message">Poruka <span class="req">*</span></label>
+              <textarea id="cf-message" name="message" rows="6" required></textarea>
+              <p class="error-msg" id="err-message"></p>
+            </div>
           </div>
-          <div class="article-body">
-            <span class="article-date">12. rujna 2026.</span>
-            <h3>Rast broja phishing napada u 2026. godini</h3>
-            <p>Analiziramo zašto su phishing napadi sve uvjerljiviji i kako prepoznati sumnjivu poruku prije klika.</p>
-            <a href="clanak-1.html" class="read-more">Pročitaj više</a>
-          </div>
-        </article>
-
-        <article class="article-card">
-          <div class="article-thumb">
-            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><rect x="150" y="80" width="100" height="80" rx="8" stroke="#E7EBF2" stroke-width="4" fill="none"/><path d="M170 80 V60 a30 30 0 0 1 60 0 V80" stroke="#C1863C" stroke-width="4" fill="none"/></svg>
-          </div>
-          <div class="article-body">
-            <span class="article-date">28. kolovoza 2026.</span>
-            <h3>Kako prepoznati ransomware prije nego što je prekasno</h3>
-            <p>Rani znakovi zaraze i tri koraka koja svaka tvrtka može poduzeti odmah, bez velikog budžeta.</p>
-            <a href="clanak-2.html" class="read-more">Pročitaj više</a>
-          </div>
-        </article>
-
-        <article class="article-card">
-          <div class="article-thumb">
-            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><rect x="90" y="70" width="220" height="100" rx="6" stroke="#E7EBF2" stroke-width="4" fill="none"/><line x1="90" y1="100" x2="310" y2="100" stroke="#C1863C" stroke-width="4"/></svg>
-          </div>
-          <div class="article-body">
-            <span class="article-date">14. kolovoza 2026.</span>
-            <h3>Nova regulativa NIS2 — što znači za hrvatske tvrtke</h3>
-            <p>Kratak vodič kroz obveze koje NIS2 direktiva donosi i tko je sve mora primjenjivati.</p>
-            <a href="clanak-3.html" class="read-more">Pročitaj više</a>
-          </div>
-        </article>
-
+          <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Pošalji poruku</button>
+          <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+        </form>
       </div>
+
+      <div>
+        <h2>Ostali podaci</h2>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5.5 C4 4.7 4.7 4 5.5 4 H8 L10 9 L7.5 10.5 C8.5 13 11 15.5 13.5 16.5 L15 14 L20 16 V18.5 C20 19.3 19.3 20 18.5 20 C10.5 20 4 13.5 4 5.5Z"/></svg>
+            <div><h3>Telefon</h3><p><a href="tel:+38543123456">+385 43 123 456</a></p></div>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="5" width="17" height="14" rx="2"/><path d="M4 6.5 L12 13 L20 6.5"/></svg>
+            <div><h3>Email</h3><p><a href="mailto:info@sigurnoit.hr">info@sigurnoit.hr</a></p></div>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15.5 14"/></svg>
+            <div><h3>Radno vrijeme</h3><p>Ponedjeljak–petak, 8:00–16:00</p></div>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21 C12 21 5 14.5 5 9.5 C5 5.9 8.1 3 12 3 C15.9 3 19 5.9 19 9.5 C19 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            <div><h3>Adresa</h3><p><a href="https://www.google.com/maps/search/Ivana+Gundulica+14+Daruvar" target="_blank" rel="noopener">Ivana Gundulića 14, Daruvar</a></p></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Lokacija</span>
+        <h2>Posjetite nas</h2>
+        <p>Naš ured nalazi se na adresi Ivana Gundulića 14, Daruvar. Kliknite na kartu za otvaranje u Google kartama.</p>
+      </div>
+      <a class="map-frame" href="https://www.google.com/maps/search/Ivana+Gundulica+14+Daruvar" target="_blank" rel="noopener" aria-label="Otvori lokaciju SigurnoIT-a u Google kartama (Ivana Gundulića 14, Daruvar)" style="display:block;">
+        <iframe
+          src="https://www.google.com/maps?q=Ivana+Gundulica+14,+Daruvar&output=embed"
+          loading="lazy"
+          title="Karta — Ivana Gundulića 14, Daruvar"
+          aria-hidden="true"
+          tabindex="-1">
+        </iframe>
+      </a>
     </div>
   </section>
 

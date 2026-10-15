@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Politika privatnosti — SigurnoIT</title>
-<meta name="description" content="Politika privatnosti SigurnoIT d.o.o. — kako prikupljamo, koristimo i štitimo vaše podatke.">
+<title>Kako prepoznati ransomware prije nego što je prekasno — SigurnoIT</title>
+<meta name="description" content="Rani znakovi zaraze ransomwareom i tri koraka koja svaka tvrtka može poduzeti odmah.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><path d=%22M20 3 L34 8.5 V19 C34 27.5 28 33.5 20 37 C12 33.5 6 27.5 6 19 V8.5 L20 3Z%22 fill=%22%2316233C%22 stroke=%22%23C1863C%22 stroke-width=%222.4%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="">
+<body data-page="novosti">
 
 <header class="site-header">
   <div class="container header-inner">
@@ -37,44 +37,38 @@
 </header>
 
 <main>
-  <section class="hero page-hero">
+  <section class="hero article-page-hero">
     <div class="container">
-      <span class="hero-eyebrow">Pravno</span>
-      <h1>Politika privatnosti</h1>
-      <p class="lede">Zadnje ažurirano: rujan 2026.</p>
+      <p class="article-meta">Novosti · 28. kolovoza 2026. · 5 min čitanja</p>
+      <h1 style="max-width: 24ch;">Kako prepoznati ransomware prije nego što je prekasno</h1>
     </div>
   </section>
 
   <section class="section-light">
-    <div class="container legal-content">
+    <div class="container">
+      <div class="article-content">
 
-      <p>SigurnoIT d.o.o. ("mi", "nas") posvećen je zaštiti privatnosti posjetitelja ove web stranice. Ova politika objašnjava koje podatke prikupljamo, zašto ih prikupljamo i kako se prema njima odnosimo.</p>
+        <div class="article-cover">
+          <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="360" fill="#16233C"/><rect x="280" y="140" width="160" height="130" rx="10" stroke="#E7EBF2" stroke-width="5" fill="none"/><path d="M310 140 V100 a50 50 0 0 1 100 0 V140" stroke="#C1863C" stroke-width="5" fill="none"/></svg>
+        </div>
 
-      <h2>1. Koje podatke prikupljamo</h2>
-      <p>Podatke prikupljamo isključivo kada nam ih sami dostavite, putem sljedećih obrazaca na stranici:</p>
-      <ul>
-        <li><strong>Kontakt forma:</strong> ime, prezime, email adresa, broj telefona i sadržaj poruke.</li>
-        <li><strong>Prijava na newsletter:</strong> email adresa.</li>
-      </ul>
+        <p>Ransomware je vrsta zlonamjernog softvera koji zaključa pristup vašim datotekama i traži otkupninu za njihovo oslobađanje. Šteta je rijetko trenutna — obično postoji prozor od nekoliko sati ili čak dana u kojem se napad širi mrežom prije nego što postane vidljiv.</p>
 
-      <h2>2. Zašto prikupljamo te podatke</h2>
-      <p>Podatke iz kontakt forme koristimo isključivo za odgovaranje na vaš upit. Email adresu iz prijave na newsletter koristimo za slanje povremenih obavijesti o sigurnosnim prijetnjama, savjetima i novostima vezanim uz naše usluge.</p>
+        <h2>Rani znakovi na koje treba obratiti pozornost</h2>
+        <ul>
+          <li>Neuobičajeno spor rad računala ili poslužitelja bez jasnog razloga</li>
+          <li>Datoteke koje se ne mogu otvoriti ili imaju čudne nastavke naziva</li>
+          <li>Neobična mrežna aktivnost izvan radnog vremena</li>
+          <li>Antivirusni ili sigurnosni alarmi koji se pojave i brzo nestanu</li>
+        </ul>
 
-      <h2>3. Dijeljenje podataka s trećim stranama</h2>
-      <p>Vaše podatke, uključujući email adresu prikupljenu putem newslettera, ne prodajemo niti dijelimo s trećim stranama u marketinške svrhe. Podatke možemo dijeliti isključivo s pružateljima usluga koji nam pomažu u tehničkom održavanju stranice (npr. hosting), a koji su ugovorno obvezani na povjerljivost, ili kada je to zakonski propisano.</p>
+        <h2>Tri koraka koja svaka tvrtka može poduzeti odmah</h2>
+        <p><strong>Redovite sigurnosne kopije.</strong> Kopije koje se automatski rade i čuvaju odvojeno od glavne mreže najbolja su obrana — ako se sustav zaključa, podatke možete vratiti bez plaćanja otkupnine.</p>
+        <p><strong>Ograničavanje pristupa.</strong> Ne treba svaki zaposlenik imati pristup svim datotekama i sustavima. Ograničavanjem pristupa ograničavate i štetu ako jedan račun bude kompromitiran.</p>
+        <p><strong>Plan za slučaj incidenta.</strong> Jasno definirano tko se zove i što se radi prvih sat vremena nakon otkrivanja napada može smanjiti štetu za dane, a ne sate.</p>
 
-      <h2>4. Čuvanje podataka</h2>
-      <p>Podatke čuvamo onoliko dugo koliko je potrebno za svrhu za koju su prikupljeni, odnosno dok se ne odjavite s newslettera ili zatražite brisanje podataka.</p>
-
-      <h2>5. Vaša prava</h2>
-      <p>U skladu s Općom uredbom o zaštiti podataka (GDPR), imate pravo zatražiti uvid u podatke koje čuvamo o vama, njihov ispravak, brisanje ili prijenos, te se u svakom trenutku odjaviti s newslettera putem poveznice u primljenom emailu ili slanjem zahtjeva na info@sigurnoit.hr.</p>
-
-      <h2>6. Kolačići</h2>
-      <p>Stranica koristi isključivo tehnički nužne kolačiće potrebne za ispravan rad, bez kolačića za praćenje u marketinške svrhe.</p>
-
-      <h2>7. Kontakt</h2>
-      <p>Za sva pitanja vezana uz ovu politiku privatnosti, obratite nam se na info@sigurnoit.hr ili +385 43 123 456.</p>
-
+        <p><a href="kontakt.html" class="read-more">Razgovarajmo o planu za slučaj incidenta za vašu tvrtku →</a></p>
+      </div>
     </div>
   </section>
 </main>
@@ -127,12 +121,12 @@
     <div class="footer-col newsletter">
       <h3>Prijava na novosti</h3>
       <p style="font-size:0.9rem; max-width: 32ch;">Povremene obavijesti o novim prijetnjama i savjetima. Vaš email ne dijelimo s trećim stranama.</p>
-     <form action="https://formspree.io/f/xeaovzya" method="POST">
-  <label for="newsletter-email">Prijava na newsletter</label>
-  <input id="newsletter-email" type="email" name="email" required
-         placeholder="tvoja@adresa.hr">
-  <button type="submit">Prijavi me</button>
-</form>
+      <form action="https://formspree.io/f/xeaovzya" method="POST">
+        <label for="newsletter-email">Prijava na newsletter</label>
+        <input id="newsletter-email" type="email" name="email" required
+               placeholder="tvoja@adresa.hr">
+        <button type="submit">Prijavi me</button>
+      </form>
       <p class="form-message" id="newsletter-message" role="status" aria-live="polite"></p>
     </div>
   </div>

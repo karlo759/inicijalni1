@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kako prepoznati ransomware prije nego što je prekasno — SigurnoIT</title>
-<meta name="description" content="Rani znakovi zaraze ransomwareom i tri koraka koja svaka tvrtka može poduzeti odmah.">
+<title>Uvjeti korištenja — SigurnoIT</title>
+<meta name="description" content="Uvjeti korištenja web stranice SigurnoIT d.o.o.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><path d=%22M20 3 L34 8.5 V19 C34 27.5 28 33.5 20 37 C12 33.5 6 27.5 6 19 V8.5 L20 3Z%22 fill=%22%2316233C%22 stroke=%22%23C1863C%22 stroke-width=%222.4%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="novosti">
+<body data-page="">
 
 <header class="site-header">
   <div class="container header-inner">
@@ -37,38 +37,40 @@
 </header>
 
 <main>
-  <section class="hero article-page-hero">
+  <section class="hero page-hero">
     <div class="container">
-      <p class="article-meta">Novosti · 28. kolovoza 2026. · 5 min čitanja</p>
-      <h1 style="max-width: 24ch;">Kako prepoznati ransomware prije nego što je prekasno</h1>
+      <span class="hero-eyebrow">Pravno</span>
+      <h1>Uvjeti korištenja</h1>
+      <p class="lede">Zadnje ažurirano: rujan 2026.</p>
     </div>
   </section>
 
   <section class="section-light">
-    <div class="container">
-      <div class="article-content">
+    <div class="container legal-content">
 
-        <div class="article-cover">
-          <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="360" fill="#16233C"/><rect x="280" y="140" width="160" height="130" rx="10" stroke="#E7EBF2" stroke-width="5" fill="none"/><path d="M310 140 V100 a50 50 0 0 1 100 0 V140" stroke="#C1863C" stroke-width="5" fill="none"/></svg>
-        </div>
+      <p>Korištenjem ove web stranice prihvaćate sljedeće uvjete. Ako se s njima ne slažete, molimo da ne koristite stranicu.</p>
 
-        <p>Ransomware je vrsta zlonamjernog softvera koji zaključa pristup vašim datotekama i traži otkupninu za njihovo oslobađanje. Šteta je rijetko trenutna — obično postoji prozor od nekoliko sati ili čak dana u kojem se napad širi mrežom prije nego što postane vidljiv.</p>
+      <h2>1. Sadržaj stranice</h2>
+      <p>Sadržaj objavljen na ovoj stranici, uključujući tekstove, članke, grafike i logotip, vlasništvo je SigurnoIT d.o.o. i zaštićen je autorskim pravom. Sadržaj se smije dijeliti uz navođenje izvora, ali se ne smije koristiti u komercijalne svrhe bez pisanog dopuštenja.</p>
 
-        <h2>Rani znakovi na koje treba obratiti pozornost</h2>
-        <ul>
-          <li>Neuobičajeno spor rad računala ili poslužitelja bez jasnog razloga</li>
-          <li>Datoteke koje se ne mogu otvoriti ili imaju čudne nastavke naziva</li>
-          <li>Neobična mrežna aktivnost izvan radnog vremena</li>
-          <li>Antivirusni ili sigurnosni alarmi koji se pojave i brzo nestanu</li>
-        </ul>
+      <h2>2. Informativna priroda sadržaja</h2>
+      <p>Članci i savjeti objavljeni na stranici služe u informativne svrhe i ne predstavljaju zamjenu za individualiziranu sigurnosnu procjenu vaše tvrtke. Za konkretne preporuke prilagođene vašem sustavu, kontaktirajte nas radi dogovora oko usluge.</p>
 
-        <h2>Tri koraka koja svaka tvrtka može poduzeti odmah</h2>
-        <p><strong>Redovite sigurnosne kopije.</strong> Kopije koje se automatski rade i čuvaju odvojeno od glavne mreže najbolja su obrana — ako se sustav zaključa, podatke možete vratiti bez plaćanja otkupnine.</p>
-        <p><strong>Ograničavanje pristupa.</strong> Ne treba svaki zaposlenik imati pristup svim datotekama i sustavima. Ograničavanjem pristupa ograničavate i štetu ako jedan račun bude kompromitiran.</p>
-        <p><strong>Plan za slučaj incidenta.</strong> Jasno definirano tko se zove i što se radi prvih sat vremena nakon otkrivanja napada može smanjiti štetu za dane, a ne sate.</p>
+      <h2>3. Korištenje obrazaca na stranici</h2>
+      <p>Korištenjem kontakt forme ili prijavom na newsletter potvrđujete da su dostavljeni podaci točni te pristajete da vas kontaktiramo u vezi vašeg upita, odnosno da vam šaljemo newsletter dok se ne odjavite. Više o obradi podataka pročitajte u našoj <a href="politika-privatnosti.html">Politici privatnosti</a>.</p>
 
-        <p><a href="kontakt.html" class="read-more">Razgovarajmo o planu za slučaj incidenta za vašu tvrtku →</a></p>
-      </div>
+      <h2>4. Ograničenje odgovornosti</h2>
+      <p>SigurnoIT d.o.o. ulaže razuman trud da informacije na stranici budu točne i ažurne, no ne jamči potpunu točnost ili primjenjivost sadržaja na svaku pojedinu situaciju. Korištenje informacija sa stranice na vlastitu je odgovornost korisnika.</p>
+
+      <h2>5. Poveznice na druge stranice</h2>
+      <p>Stranica može sadržavati poveznice na vanjske web stranice (npr. društvene mreže). Ne odgovaramo za sadržaj ili politike privatnosti tih stranica.</p>
+
+      <h2>6. Izmjene uvjeta</h2>
+      <p>Zadržavamo pravo izmjene ovih uvjeta korištenja. Izmjene stupaju na snagu objavom na ovoj stranici.</p>
+
+      <h2>7. Kontakt</h2>
+      <p>Za pitanja vezana uz ove uvjete korištenja, obratite nam se na info@sigurnoit.hr.</p>
+
     </div>
   </section>
 </main>

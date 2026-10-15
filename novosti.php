@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rast broja phishing napada u 2026. godini — SigurnoIT</title>
-<meta name="description" content="Zašto su phishing napadi sve uvjerljiviji i kako prepoznati sumnjivu poruku prije klika.">
+<title>Novosti — SigurnoIT</title>
+<meta name="description" content="Najnoviji članci i vijesti o informacijskoj sigurnosti od tima SigurnoIT.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><path d=%22M20 3 L34 8.5 V19 C34 27.5 28 33.5 20 37 C12 33.5 6 27.5 6 19 V8.5 L20 3Z%22 fill=%22%2316233C%22 stroke=%22%23C1863C%22 stroke-width=%222.4%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -37,41 +37,59 @@
 </header>
 
 <main>
-  <section class="hero article-page-hero">
-    <div class="container">
-      <p class="article-meta">Novosti · 12. rujna 2026. · 4 min čitanja</p>
-      <h1 style="max-width: 24ch;">Rast broja phishing napada u 2026. godini</h1>
+
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="container" style="padding: 72px 0 24px;">
+      <span class="hero-eyebrow">Novosti</span>
+      <h1 style="max-width: 20ch;">Vijesti i savjeti o informacijskoj sigurnosti.</h1>
+      <p class="lede" style="max-width: 60ch;">Naš tim redovito piše o aktualnim prijetnjama, novim regulativama i praktičnim koracima koje vaša tvrtka može poduzeti.</p>
     </div>
   </section>
 
   <section class="section-light">
     <div class="container">
-      <div class="article-content">
+      <div class="grid grid-3">
 
-        <div class="article-cover">
-          <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="360" fill="#16233C"/><path d="M80 300 L260 160 L370 240 L620 60" stroke="#C1863C" stroke-width="6" fill="none"/><circle cx="260" cy="160" r="9" fill="#E7EBF2"/><circle cx="370" cy="240" r="9" fill="#E7EBF2"/></svg>
-        </div>
+        <article class="article-card">
+          <div class="article-thumb">
+            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><path d="M60 170 L150 90 L210 140 L340 40" stroke="#C1863C" stroke-width="4" fill="none"/><circle cx="150" cy="90" r="6" fill="#E7EBF2"/><circle cx="210" cy="140" r="6" fill="#E7EBF2"/></svg>
+          </div>
+          <div class="article-body">
+            <span class="article-date">12. rujna 2026.</span>
+            <h3>Rast broja phishing napada u 2026. godini</h3>
+            <p>Analiziramo zašto su phishing napadi sve uvjerljiviji i kako prepoznati sumnjivu poruku prije klika.</p>
+            <a href="clanak-1.html" class="read-more">Pročitaj više</a>
+          </div>
+        </article>
 
-        <p>Phishing poruke više ne izgledaju kao neuredni mailovi puni pravopisnih grešaka. U 2026. godini najčešće se pojavljuju kao uredne obavijesti banaka, dobavljača ili čak kolega s posla — precizno prilagođene osobi kojoj su upućene.</p>
+        <article class="article-card">
+          <div class="article-thumb">
+            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><rect x="150" y="80" width="100" height="80" rx="8" stroke="#E7EBF2" stroke-width="4" fill="none"/><path d="M170 80 V60 a30 30 0 0 1 60 0 V80" stroke="#C1863C" stroke-width="4" fill="none"/></svg>
+          </div>
+          <div class="article-body">
+            <span class="article-date">28. kolovoza 2026.</span>
+            <h3>Kako prepoznati ransomware prije nego što je prekasno</h3>
+            <p>Rani znakovi zaraze i tri koraka koja svaka tvrtka može poduzeti odmah, bez velikog budžeta.</p>
+            <a href="clanak-2.html" class="read-more">Pročitaj više</a>
+          </div>
+        </article>
 
-        <h2>Zašto su napadi sve uvjerljiviji</h2>
-        <p>Napadači danas imaju pristup alatima koji im omogućuju da brzo prikupe javno dostupne informacije o tvrtki i zaposlenicima, a zatim ih iskoriste za izradu vjerodostojnih poruka. Rezultat je e-mail koji spominje stvarnog kolegu, stvaran projekt ili stvarnog dobavljača.</p>
+        <article class="article-card">
+          <div class="article-thumb">
+            <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="225" fill="#16233C"/><rect x="90" y="70" width="220" height="100" rx="6" stroke="#E7EBF2" stroke-width="4" fill="none"/><line x1="90" y1="100" x2="310" y2="100" stroke="#C1863C" stroke-width="4"/></svg>
+          </div>
+          <div class="article-body">
+            <span class="article-date">14. kolovoza 2026.</span>
+            <h3>Nova regulativa NIS2 — što znači za hrvatske tvrtke</h3>
+            <p>Kratak vodič kroz obveze koje NIS2 direktiva donosi i tko je sve mora primjenjivati.</p>
+            <a href="clanak-3.html" class="read-more">Pročitaj više</a>
+          </div>
+        </article>
 
-        <h2>Na što obratiti pozornost</h2>
-        <ul>
-          <li>Poruke koje traže hitnu akciju ili prijetnje posljedicama ako ne reagirate odmah</li>
-          <li>Zahtjevi za plaćanje ili promjenu bankovnih podataka putem e-maila, bez prethodnog dogovora</li>
-          <li>Poveznice čija adresa, kad joj pređete mišem preko, ne odgovara tvrtki koju navodno predstavljaju</li>
-          <li>Prilozi koje niste očekivali, čak i od poznatih pošiljatelja</li>
-        </ul>
-
-        <h2>Što tvrtka može učiniti već ovaj tjedan</h2>
-        <p>Uvođenje pravila "provjeri prije nego platiš" za sve zahtjeve vezane uz novac, te kratka interna obavijest zaposlenicima o trenutačnim trikovima, značajno smanjuju rizik. Dugoročno, redovita edukacija i simulirani phishing testovi grade naviku opreza koja se ne gubi s vremenom.</p>
-
-        <p><a href="usluge.html" class="read-more">Pogledajte našu edukaciju o prepoznavanju phishinga →</a></p>
       </div>
     </div>
   </section>
+
 </main>
 
 <footer class="site-footer">

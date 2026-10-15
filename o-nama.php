@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">

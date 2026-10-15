@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | AB | 22.09.2026. -->
+<!-- TSD-4RT  22.09.2026. -->
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Uvjeti korištenja — SigurnoIT</title>
-<meta name="description" content="Uvjeti korištenja web stranice SigurnoIT d.o.o.">
+<title>Politika privatnosti — SigurnoIT</title>
+<meta name="description" content="Politika privatnosti SigurnoIT d.o.o. — kako prikupljamo, koristimo i štitimo vaše podatke.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><path d=%22M20 3 L34 8.5 V19 C34 27.5 28 33.5 20 37 C12 33.5 6 27.5 6 19 V8.5 L20 3Z%22 fill=%22%2316233C%22 stroke=%22%23C1863C%22 stroke-width=%222.4%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,7 +40,7 @@
   <section class="hero page-hero">
     <div class="container">
       <span class="hero-eyebrow">Pravno</span>
-      <h1>Uvjeti korištenja</h1>
+      <h1>Politika privatnosti</h1>
       <p class="lede">Zadnje ažurirano: rujan 2026.</p>
     </div>
   </section>
@@ -48,28 +48,32 @@
   <section class="section-light">
     <div class="container legal-content">
 
-      <p>Korištenjem ove web stranice prihvaćate sljedeće uvjete. Ako se s njima ne slažete, molimo da ne koristite stranicu.</p>
+      <p>SigurnoIT d.o.o. ("mi", "nas") posvećen je zaštiti privatnosti posjetitelja ove web stranice. Ova politika objašnjava koje podatke prikupljamo, zašto ih prikupljamo i kako se prema njima odnosimo.</p>
 
-      <h2>1. Sadržaj stranice</h2>
-      <p>Sadržaj objavljen na ovoj stranici, uključujući tekstove, članke, grafike i logotip, vlasništvo je SigurnoIT d.o.o. i zaštićen je autorskim pravom. Sadržaj se smije dijeliti uz navođenje izvora, ali se ne smije koristiti u komercijalne svrhe bez pisanog dopuštenja.</p>
+      <h2>1. Koje podatke prikupljamo</h2>
+      <p>Podatke prikupljamo isključivo kada nam ih sami dostavite, putem sljedećih obrazaca na stranici:</p>
+      <ul>
+        <li><strong>Kontakt forma:</strong> ime, prezime, email adresa, broj telefona i sadržaj poruke.</li>
+        <li><strong>Prijava na newsletter:</strong> email adresa.</li>
+      </ul>
 
-      <h2>2. Informativna priroda sadržaja</h2>
-      <p>Članci i savjeti objavljeni na stranici služe u informativne svrhe i ne predstavljaju zamjenu za individualiziranu sigurnosnu procjenu vaše tvrtke. Za konkretne preporuke prilagođene vašem sustavu, kontaktirajte nas radi dogovora oko usluge.</p>
+      <h2>2. Zašto prikupljamo te podatke</h2>
+      <p>Podatke iz kontakt forme koristimo isključivo za odgovaranje na vaš upit. Email adresu iz prijave na newsletter koristimo za slanje povremenih obavijesti o sigurnosnim prijetnjama, savjetima i novostima vezanim uz naše usluge.</p>
 
-      <h2>3. Korištenje obrazaca na stranici</h2>
-      <p>Korištenjem kontakt forme ili prijavom na newsletter potvrđujete da su dostavljeni podaci točni te pristajete da vas kontaktiramo u vezi vašeg upita, odnosno da vam šaljemo newsletter dok se ne odjavite. Više o obradi podataka pročitajte u našoj <a href="politika-privatnosti.html">Politici privatnosti</a>.</p>
+      <h2>3. Dijeljenje podataka s trećim stranama</h2>
+      <p>Vaše podatke, uključujući email adresu prikupljenu putem newslettera, ne prodajemo niti dijelimo s trećim stranama u marketinške svrhe. Podatke možemo dijeliti isključivo s pružateljima usluga koji nam pomažu u tehničkom održavanju stranice (npr. hosting), a koji su ugovorno obvezani na povjerljivost, ili kada je to zakonski propisano.</p>
 
-      <h2>4. Ograničenje odgovornosti</h2>
-      <p>SigurnoIT d.o.o. ulaže razuman trud da informacije na stranici budu točne i ažurne, no ne jamči potpunu točnost ili primjenjivost sadržaja na svaku pojedinu situaciju. Korištenje informacija sa stranice na vlastitu je odgovornost korisnika.</p>
+      <h2>4. Čuvanje podataka</h2>
+      <p>Podatke čuvamo onoliko dugo koliko je potrebno za svrhu za koju su prikupljeni, odnosno dok se ne odjavite s newslettera ili zatražite brisanje podataka.</p>
 
-      <h2>5. Poveznice na druge stranice</h2>
-      <p>Stranica može sadržavati poveznice na vanjske web stranice (npr. društvene mreže). Ne odgovaramo za sadržaj ili politike privatnosti tih stranica.</p>
+      <h2>5. Vaša prava</h2>
+      <p>U skladu s Općom uredbom o zaštiti podataka (GDPR), imate pravo zatražiti uvid u podatke koje čuvamo o vama, njihov ispravak, brisanje ili prijenos, te se u svakom trenutku odjaviti s newslettera putem poveznice u primljenom emailu ili slanjem zahtjeva na info@sigurnoit.hr.</p>
 
-      <h2>6. Izmjene uvjeta</h2>
-      <p>Zadržavamo pravo izmjene ovih uvjeta korištenja. Izmjene stupaju na snagu objavom na ovoj stranici.</p>
+      <h2>6. Kolačići</h2>
+      <p>Stranica koristi isključivo tehnički nužne kolačiće potrebne za ispravan rad, bez kolačića za praćenje u marketinške svrhe.</p>
 
       <h2>7. Kontakt</h2>
-      <p>Za pitanja vezana uz ove uvjete korištenja, obratite nam se na info@sigurnoit.hr.</p>
+      <p>Za sva pitanja vezana uz ovu politiku privatnosti, obratite nam se na info@sigurnoit.hr ili +385 43 123 456.</p>
 
     </div>
   </section>
@@ -123,12 +127,12 @@
     <div class="footer-col newsletter">
       <h3>Prijava na novosti</h3>
       <p style="font-size:0.9rem; max-width: 32ch;">Povremene obavijesti o novim prijetnjama i savjetima. Vaš email ne dijelimo s trećim stranama.</p>
-      <form action="https://formspree.io/f/xeaovzya" method="POST">
-        <label for="newsletter-email">Prijava na newsletter</label>
-        <input id="newsletter-email" type="email" name="email" required
-               placeholder="tvoja@adresa.hr">
-        <button type="submit">Prijavi me</button>
-      </form>
+     <form action="https://formspree.io/f/xeaovzya" method="POST">
+  <label for="newsletter-email">Prijava na newsletter</label>
+  <input id="newsletter-email" type="email" name="email" required
+         placeholder="tvoja@adresa.hr">
+  <button type="submit">Prijavi me</button>
+</form>
       <p class="form-message" id="newsletter-message" role="status" aria-live="polite"></p>
     </div>
   </div>
